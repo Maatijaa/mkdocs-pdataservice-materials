@@ -19,6 +19,11 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+nav:
+  - Home: introduction.md
+  - gettingstarted:
+    - Installation: gettingstarted/installation.md
+    - Basic Usage: gettingstarted/basic_usage.md
 
 palette:
     - media: "(prefers-color-scheme: light)"
@@ -35,8 +40,10 @@ palette:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-hljs_languages:
-    - lua
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
 
 copyright: |
   &copy; 2024 <a href="https://discord.gg/Hq5ZY87Hv3"  target="_blank" rel="noopener">ParaTron Softworks</a>
