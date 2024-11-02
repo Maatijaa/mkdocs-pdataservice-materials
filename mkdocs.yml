@@ -1,4 +1,12 @@
 site_name: pDataService Documentation
+site_description: Documentation for pDataService
+site_author: Maatijaa
+site_url: https://maatijaa.github.io/pdataservice-docs/
+
+repo_name: Maatijaa/pdataservice-docs
+repo_url: https://github.com/Maatijaa/pdataservice-docs
+edit_uri: ""
+
 theme:
   name: material
   features:
@@ -11,20 +19,24 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-language: en
+
 palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
-      primary: teal
-      accent: purple
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
-      primary: teal
-      accent: lime
+hljs_languages:
+    - lua
 
 copyright: |
   &copy; 2024 <a href="https://discord.gg/Hq5ZY87Hv3"  target="_blank" rel="noopener">ParaTron Softworks</a>
