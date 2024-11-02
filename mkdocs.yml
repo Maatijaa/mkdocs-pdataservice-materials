@@ -19,11 +19,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-nav:
-  - Home: introduction.md
-  - Installation: installation.md
-  - Basic Usage: basic_usage.md
-
 palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
