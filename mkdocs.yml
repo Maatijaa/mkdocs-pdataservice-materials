@@ -21,9 +21,8 @@ theme:
     - content.code.copy
 nav:
   - Home: introduction.md
-  - gettingstarted:
-    - Installation: gettingstarted/installation.md
-    - Basic Usage: gettingstarted/basic_usage.md
+  - Installation: installation.md
+  - Basic Usage: basic_usage.md
 
 palette:
     - media: "(prefers-color-scheme: light)"
