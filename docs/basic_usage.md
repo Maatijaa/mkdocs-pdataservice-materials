@@ -1,7 +1,7 @@
 !!! note If auto-saving is enabled in pDataService, manual saves on PlayerRemoving are not strictly necessary but recommended for data integrity. To ensure reliability, consider adding error handling for network or server issues, especially if saving to an external database. Additionally, define all required data fields in SetDefaultProfile() to prevent missing data errors during gameplay.
 
 Heres a simple implementation example:
-[SimpleDataManager.rbxm](..%2F..%2F..%2F..%2FDownloads%2FSimpleDataManager.rbxm)
+[SimpleDataManager.rbxm](https://github.com/Maatijaa/pdataservice-docs/releases/tag/1.0.1)
 
 And also heres code example:
 
