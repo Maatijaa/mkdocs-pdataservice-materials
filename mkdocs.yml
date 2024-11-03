@@ -8,7 +8,11 @@ repo_url: https://github.com/Maatijaa/pdataservice-docs
 edit_uri: ""
 
 theme:
+  icon:
+    logo: material/database
+    repo: fontawesome/brands/git-alt
   name: material
+  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -19,21 +23,23 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: blue
+  palette:
+    - scheme: default
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-7
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: blue
+    - scheme: slate
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-4
         name: Switch to light mode
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: Getting Started/installation.md
+    - Basic Usage: Getting Started/basic_usage.md
+  - API: api.md
+  - Development: dev_logs.md
+
 markdown_extensions:
   - admonition
   - pymdownx.highlight
