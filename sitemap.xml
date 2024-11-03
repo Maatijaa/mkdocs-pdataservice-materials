@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://maatijaa.github.io/pdataservice-docs/</loc>
+         <lastmod>2024-11-03</lastmod>
+    </url>
+    <url>
+         <loc>https://maatijaa.github.io/pdataservice-docs/api/</loc>
+         <lastmod>2024-11-03</lastmod>
+    </url>
+    <url>
+         <loc>https://maatijaa.github.io/pdataservice-docs/dev_logs/</loc>
+         <lastmod>2024-11-03</lastmod>
+    </url>
+    <url>
+         <loc>https://maatijaa.github.io/pdataservice-docs/Getting%20Started/basic_usage/</loc>
+         <lastmod>2024-11-03</lastmod>
+    </url>
+    <url>
+         <loc>https://maatijaa.github.io/pdataservice-docs/Getting%20Started/installation/</loc>
+         <lastmod>2024-11-03</lastmod>
+    </url>
+</urlset>
